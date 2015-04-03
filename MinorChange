@@ -1,0 +1,21 @@
+using System;
+using System.Collection.Generic;
+using System.Linq;
+Using System.Text;
+using System.Threading.Tasks;
+
+namespace ArrayOfNumbers
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int[] numbers = new int[5] { 1,2,3,4,5};
+      
+      foreach (int number in numbers)
+        Console.Write(number);
+        
+      Console.ReadLine();
+    }
+  }
+}
